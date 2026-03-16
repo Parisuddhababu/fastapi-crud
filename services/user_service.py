@@ -34,7 +34,7 @@ class UserService:
         )
 
         if result.modified_count == 1:
-            return {"message": "User updated"}
+            return {"message": "User updated !"}
 
         return {"error": "User not found"}
     
